@@ -1,7 +1,7 @@
-package Week06;
+package War;
 
-public class AsteriskMaker implements Logger {
-
+public class MessageMaker implements Logger{
+	
 	@Override
 	public void log(String str) {
 
@@ -13,7 +13,4 @@ public class AsteriskMaker implements Logger {
 		System.out.println("***"+str+"***");
 		System.out.println(count);
 	}
-
 }
-
-

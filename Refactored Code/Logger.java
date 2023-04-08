@@ -1,7 +1,6 @@
-package Week06;
+package War;
 
 public interface Logger {
 	
 	void log(String str);
-
 }
